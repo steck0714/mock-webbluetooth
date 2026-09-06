@@ -10,23 +10,21 @@
 
 ## 🌐 实现
 
-### pyside6-webbluetooth
+### [pyside6-webbluetooth](https://github.com/steck0714/pyside6-webbluetooth)
 
-面向 PySide6 / QtWebEngine 应用的 Web Bluetooth API 实现。
+面向 PySide6 / QtWebEngine 应用程序的 Web Bluetooth API 实现。
 
 - 提供 `navigator.bluetooth`
-- 实际 BLE 设备通信
+- 与实际 BLE 设备进行通信
 - 原生设备选择对话框
 - 实时扫描
 - 按 Origin 管理设备权限
-- 按 Frame 验证 Origin
-- GATT Service / Characteristic / Descriptor 访问
+- 帧级 Origin 验证
+- 访问 GATT Service / Characteristic / Descriptor
 - GATT Blocklist
-- `requestDevice()` 的主要过滤器处理
-- 异步 BLE Worker
-- QtWebEngine / QWebChannel Bridge
-
-Repository: https://github.com/steck0714/pyside6-webbluetooth
+- 支持 `requestDevice()` 的主要过滤处理
+- 不阻塞 Qt UI 的异步 BLE Worker
+- QtWebEngine / QWebChannel 桥接
 
 ## 设计
 
