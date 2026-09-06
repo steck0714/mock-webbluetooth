@@ -10,7 +10,7 @@ Web Bluetooth API の互換性を目的とした拡張型互換性APIです。
 
 ## 🌐 実装
 
-### pyside6-webbluetooth
+### [pyside6-webbluetooth](https://github.com/steck0714/pyside6-webbluetooth)
 
 PySide6 / QtWebEngine アプリケーション向けの Web Bluetooth API 実装です。
 
@@ -25,8 +25,6 @@ PySide6 / QtWebEngine アプリケーション向けの Web Bluetooth API 実装
 - `requestDevice()` の主要なフィルタ処理
 - Qt UI をブロックしない非同期 BLE Worker
 - QtWebEngine / QWebChannel ブリッジ
-
-Repository: https://github.com/steck0714/pyside6-webbluetooth
 
 ## 設計
 
